@@ -1,0 +1,154 @@
+body{
+  font-family: Monospace;
+  background:#323144;
+  color:white;
+}
+
+.navbar{
+  background-color:rgba(74, 79, 111, 0.9);
+  margin:0px;
+  color:white;
+  border: 0px;
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-header .navbar-brand{
+  color:white;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover{
+  color:#0de8ee;
+}
+
+.navbar-default .navbar-nav {
+  margin-right: 20px;
+}
+
+.navbar-default .navbar-nav li .li-color{
+  text-align: right;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav li .li-color:hover{
+  color: #0de8ee;
+}
+
+.banner{
+  min-height:450px;
+  color:white;
+  padding-top:130px;
+  text-align:center;
+}
+
+.portfolio{
+  background:#323144;
+  color:white;
+  padding-bottom: 60px;
+}
+
+.img-responsive{
+  display: inline;
+}
+
+.title{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  text-align:center;
+  color:white;
+}
+
+.portfolio-link{
+  color:#46a850;
+}
+
+.portfolio-link:hover{
+  color: #0de8ee;
+}
+
+.portfolo-description{
+  margin:10px 20px 10px 20px;
+  font-size: 16px;
+  font-family: verdana;
+}
+
+.col-margin{
+  margin-bottom:30px
+}
+
+.theme{
+  background-size:cover;
+  background-position: 60% 62%;
+  background-repeat: no-repeat;
+}
+
+.contact{
+  min-height:400px;
+}
+
+.about{
+  min-height:400px;
+  font-family: verdana;
+}
+
+.about-description{
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.contact{
+  min-height:400px;
+  background-color:rgba(74, 79, 111, 0.3);
+}
+
+.social-btn{
+  padding-top: 60px;
+}
+
+.btn-block{
+  margin:10px 0px 10px 0px;
+}
+
+.contact-description{
+  font-size: 22px;
+  margin: 60px auto 30px auto;
+}
+
+.footer{
+    min-height:40px;
+    background:#323144;
+}
+
+.footer-padding{
+  padding: 20px 0px 20px 0px;
+}
+
+@media (max-width:768px){
+  .text-full-size{text-align:center;}
+  .img-xs-center{margin:0 auto;}
+}
+
+@media (max-width:450px){
+h1 {font-size: 28px;}
+.about-description{font-size:18px;}
+.contact-description{font-size:18px;}
+.portfolio-link{font-size: 12px;}
+}
+
+.transform-animation {
+    transition: .2s;
+}
+.transform-animation:hover {
+    transform: scale(1.1);
+    color: #000;
+    outline-color: #b0b0b0;
+}
+.transform-animation:after {
+    display: inline-block;
+    padding: 10px;
+    content: attr(class);
+}
