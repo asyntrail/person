@@ -19,7 +19,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Vasiliy Pokotylo</a>
+      <a class="navbar-brand" href="#">Portfolio Website</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -36,9 +36,17 @@
 <div class="container-fluid">
 
   <!-- begin row head-section -->
-<div class=" row head-section banner" style="background-image:url(img/andrew-coelho-46451.jpg)">
+<div class=" row banner" style="background-image:url(img/banner.jpg)">
     <div class="col-sm-12">
-    <h1> HELLO! <br> I am junior front-end developer and this is my personal portfolio webpage </h1>
+<!--     <h1> HELLO! <br> I am junior front-end developer and this is my personal portfolio webpage </h1>
+ -->
+<!-- begin head-text -->
+<div class="head-block">
+    <p class="head-block-text">Vasiliy Pokotylo</p>
+    <h1>Junior Front-end Developer</h1>
+    <p class="head-block-text">Hello and welcome to my personal portfolio website!</p>
+</div>
+<!-- end head-text -->
     </div>
 </div >
   <!-- end row head-section -->
@@ -52,33 +60,39 @@
             <a class="" href="https://asyntrail.github.io/blog" target="-blank"><img class="img-responsive img-xs-center transform-animation" src="img/blog-thumb.jpg" alt="Blog page template"></a>
             <h3 class="text-uppercase">Blog</h3>
             <a class="portfolio-link" href="https://asyntrail.github.io/blog" target="-blank">https://asyntrail.github.io/blog</a>
-            <p class="portfolo-description">Blog page template, without any fraimwork and java scripts, has responsive design. <br>Technologies: HTML5, CSS3.</p>
+            <p class="portfolo-description">Blog page template, without any framework and java scripts, has responsive design. <br>Technologies: HTML5, CSS3.</p>
         </div>
          <div class="col-md-4 col-sm-6 col-margin">
             <a href="https://asyntrail.github.io/clinic" target="-blank" ><img class="img-responsive img-xs-center transform-animation " src="img/clinic-thumb.jpg" alt="Online clinic page template"></a>
            <h3 class="text-uppercase">Online clinic</h3>
            <a class="portfolio-link" href="https://asyntrail.github.io/clinic" target="-blank">https://asyntrail.github.io/clinic</a>
-           <p class="portfolo-description">Online clinic page template, has responsive desing and java scripts. <br>Technologies: HTML5, Bootstrap3, CSS3, JS.</p>
+           <p class="portfolo-description">Online clinic page template, has responsive design and java scripts. <br>Technologies: HTML5, Bootstrap3, CSS3, JS.</p>
         </div>
-         <div class="col-md-4 col-sm-6 col-margin">
+        <div class="col-md-4 col-sm-6 col-margin">
             <a href="https://asyntrail.github.io/restaurant" target="-blank"><img class="img-responsive img-xs-center transform-animation" src="img/restaurant-thumb.jpg" alt="Restaurant page template"></a>
             <h3 class="text-uppercase">Restaurant service</h3>
             <a class="portfolio-link" href="https://asyntrail.github.io/restaurant" target="-blank"><p>https://asyntrail.github.io/restaurant </p> </a>
-            <p class="portfolo-description">Restaurant page template, has responsive desing and java scripts. <br>Technologies: HTML5, Bootstrap3, CSS3, JS.</p>
+            <p class="portfolo-description">Restaurant page template, has responsive design and java scripts. <br>Technologies: HTML5, Bootstrap3, CSS3, JS.</p>
         </div>
         <div class="col-md-4 col-sm-6 col-margin">
             <a href="http://lampshm.kl.com.ua/" target="-blank"><img class="img-responsive img-xs-center transform-animation" src="img/lampshm-thumb.jpg" alt="Page"></a>
             <h3 class="text-uppercase">LAMPS HANDMADE</h3>
             <a class="portfolio-link" href="http://lampshm.kl.com.ua/" target="-blank">http://lampshm.kl.com.ua</a>
-            <p class="portfolo-description">Custom blog on WordPress, responsive theme.<br>Technologies: CMS Wordpress.</p>
-          </div>
+            <p class="portfolo-description">Custom blog on WordPress, responsive theme.<br>Technologies: CMS WordPress.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-margin">
+            <a class="" href="https://asyntrail.github.io/transport/" target="-blank"><img class="img-responsive img-xs-center transform-animation" src="img/transport-thumb.jpg" alt="Blog page template"></a>
+            <h3 class="text-uppercase">Transport service</h3>
+            <a class="portfolio-link" href="https://asyntrail.github.io/transport/" target="-blank">https://asyntrail.github.io/transport/</a>
+            <p class="portfolo-description">Page template without any framework, has responsive design and responsive sidebar menu. <br>Technologies: HTML5, CSS3, JS.</p>
+        </div>
     </div>
     <!-- end container  -->
    </div>
    <!-- end row portfolio -->
 
    <!-- begin row theme -->
-   <div class="row theme" style="background-image:url(img/andrew-coelho-46451.jpg)" id="about">
+   <div class="row " id="about">
       <!-- begin container about-->
      <div class="container about"  >
        <h3 class="title text-center">ABOUT</h3>
@@ -92,9 +106,13 @@
         </div>
       </div>
       <!-- end container about-->
+    </div>
+    <!-- end row about -->
 
+  <!-- begin row contact-->
+  <div class="row contact">
   <!-- begin container contact-->
-  <div class="container contact" id="contact">
+  <div class="container " id="contact">
       <h3 class="title text-center">CONTACT</h3>
         <div class="col-sm-6 social-btn">
         <a class="btn btn-lg btn-warning btn-block" href="mailto:asyntrail@gmail.com" role="button"><span class=" glyphicon glyphicon-envelope" aria-hidden="true"></span> Send Email</a>
@@ -106,16 +124,15 @@
        </div>
   </div>
   <!-- end container contact-->
-
-</div>
-<!-- end row theme -->
+  </div>
+  <!-- end row contact -->
 
 <!-- begin footer -->
-<div class=" row footer">
+<div class="row footer">
     <div class="col-sm-6  text-center footer-padding">
-      Background photo by  <a href="https://unsplash.com/@andrewcoelho?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge"> Andrew Coelho / Unsplash.com</a>
+      <span> Photo by  <a class="portfolio-link" href="https://unsplash.com/photos/5brvJbR1Pn8" target="_blank"> Matthew Kane / Unsplash.com</a></span>
      </div>
-     <div class="col-sm-6  text-center footer-padding "><span > Vasiliy Pokotylo © 2017, All rights reserved.</span></div>
+     <div class="col-sm-6  text-center footer-padding "><span > Vasiliy Pokotylo © 2018, All rights reserved.</span></div>
 </div>
 <!-- end footer -->
 

@@ -1,11 +1,11 @@
 body{
-  font-family: Monospace;
-  background:#323144;
-  color:white;
+/*  font-family: roboto;*/
+  background:white;
+  color: #5a90ba;
 }
 
 .navbar{
-  background-color:rgba(74, 79, 111, 0.9);
+  background-color:rgba(66, 183, 202, 0.3);
   margin:0px;
   color:white;
   border: 0px;
@@ -17,7 +17,7 @@ body{
 }
 
 .navbar-default .navbar-header .navbar-brand:hover{
-  color:#0de8ee;
+  color:#5a90ba;
 }
 
 .navbar-default .navbar-nav {
@@ -33,19 +33,45 @@ body{
 }
 
 .navbar-default .navbar-nav li .li-color:hover{
-  color: #0de8ee;
+  color: #5a90ba;
 }
 
 .banner{
-  min-height:450px;
-  color:white;
+  min-height:590px;
+  color:#5a90ba;
   padding-top:130px;
   text-align:center;
+  background: white;
+  background-position: 50% 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head-block{
+  margin-top: 190px;
+}
+
+h1{
+  font-family: impact;
+  margin-top: 10px;
+}
+
+h1::after{
+    content: "";
+    display:block;
+    margin:5px auto 0;
+    background-color:rgba(66, 183, 202, 1);
+    width:150px;
+    height: 3px;
+}
+
+.head-block-text{
+  font-size: 25px;
+  font-family:Roboto;
 }
 
 .portfolio{
-  background:#323144;
-  color:white;
+  background:rgba(66, 183, 202, 0.3);
   padding-bottom: 60px;
 }
 
@@ -58,7 +84,7 @@ body{
   margin-bottom: 40px;
   padding-top: 20px;
   text-align:center;
-  color:white;
+  color:#5a90ba;
 }
 
 .portfolio-link{
@@ -75,34 +101,29 @@ body{
   font-family: verdana;
 }
 
+.col-md-4{
+  height: 424px;
+}
+
 .col-margin{
   margin-bottom:30px
 }
 
-.theme{
-  background-size:cover;
-  background-position: 60% 62%;
-  background-repeat: no-repeat;
-}
-
 .contact{
   min-height:400px;
+  background: #ede3e1;
 }
 
 .about{
-  min-height:400px;
-  font-family: verdana;
+  min-height:500px;
+
 }
 
 .about-description{
   text-align: center;
-  font-size: 22px;
+    font-family: roboto;
+  font-size: 27px;
   margin-bottom: 40px;
-}
-
-.contact{
-  min-height:400px;
-  background-color:rgba(74, 79, 111, 0.3);
 }
 
 .social-btn{
@@ -120,7 +141,7 @@ body{
 
 .footer{
     min-height:40px;
-    background:#323144;
+    background:rgba(66, 183, 202, 0.3);
 }
 
 .footer-padding{
