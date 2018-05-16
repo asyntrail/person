@@ -13,7 +13,7 @@ body {
   z-index: 20; }
 
 .navbar {
-  background-color: #2098D1;
+  background-color: rgba(32, 152, 209, 0);
   margin: 0px;
   border: 0px;
   border-radius: 0px; }
@@ -34,7 +34,9 @@ body {
 .section-hero {
   min-height: 600px;
   color: #fff;
-  background: #2098D1;
+  background: -webkit-linear-gradient(#125778, #2098D1);
+  background: -o-linear-gradient(#125778, #2098D1);
+  background: linear-gradient(#125778, #2098D1);
   text-align: center;
   padding-top: 200px; }
 
